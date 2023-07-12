@@ -52,6 +52,7 @@
 			    height: 100%;
 			    display: flex;
 			    align-items: center;
+			    letter-spacing: -4px;	
 			}
 
 			#company_title{
