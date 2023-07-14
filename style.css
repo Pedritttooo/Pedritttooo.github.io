@@ -1,17 +1,33 @@
-  			html,body{
-				overflow-x: hidden;
-    				overflow-y: scroll;
+<html>
+	<head>
+		<title>minitech_v2</title>
+		<meta charset="unicode">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' crossorigin="anonymous">
+			<script src="https://kit.fontawesome.com/464f84772d.js" crossorigin="anonymous"></script>
+
+		<style>
+
+			html,body{
+				height: 100vh;
+				width: 100vw	;
+				overflow: hidden;
 			}
 
 			#header{
 				position: fixed;
-				width: 100vw;
-				height: 10vh;
-				display: flex;
-				flex-direction: row;
-				justify-content: flex-start;
-				align-items: center;
-				left: 0;
+			    width: 100vw;
+			    height: 10vh;
+			    display: flex;
+			    flex-direction: row;
+			    justify-content: flex-start;
+			    align-items: center;
+			    top: 0;
+			    padding: 0;
+			    left: 0;
+			    margin: 0;
+			    background: #292929;
+			    transition: .5s ease;
 			}
 
 			#mst_wraper{
@@ -33,7 +49,6 @@
 				color: orangered;
 				text-shadow: 0 0 1px black;
 				font-weight: bold;
-				margin: -2%;
 			}
 
 			#palka_wraper{
@@ -45,19 +60,19 @@
 			#palka{
 			    height: 55px;
 			    width: 2px;
-			    background: red;
+			    background: white;
 			}
 
 			#title_wraper{
 			    height: 100%;
 			    display: flex;
 			    align-items: center;
-			    letter-spacing: -4px;	
 			}
 
 			#company_title{
    				text-align: center;
    				font-family: 'Montserrat';
+   				color: white;
 			}
 
 
@@ -81,3 +96,62 @@
 				#navigation{display: none;}
 				#nav_callback_container{display: none;}
 			}
+			#menu_button_container{
+				display: flex;
+			    position: absolute;
+			    font-size: x-large;
+			    color: white;
+			    right: 5%;
+			    color: orangered;
+			}
+
+			@media (min-width: 813px){
+				#menu_button_container{display: none;}
+			}
+
+
+		</style>
+	</head>
+
+	<body>
+		<div id="header">
+		
+			<div id="mst_wraper">
+				<div id="mst">
+					<a class="logo_desc">Малая</a>
+					<a class="logo_desc">Строительная</a>
+					<a class="logo_desc">Техника</a>
+				</div>
+
+				<div id="palka_wraper">
+					<i id="palka" class="fa-regular fa-pipe"></i>
+				</div>
+				
+				<div id="title_wraper">
+					<h1 id="company_title">МиниТех</h1>
+				</div>
+			</div>
+
+			<div id="navigation">
+				<div class="nav">Услуги</div>
+				<div class="nav"> Контакты</div>
+				<div class="nav">О компании</div>
+			</div>
+
+			<div id="nav_callback_container">
+				<div  class="nav_callback_element" id="callback_button" >Оставить заявку</div>
+
+					<div class="nav_callback_element">
+						<i class="fa-solid fa-phone"></i>
+						<a style="">8 926 820 23 86</a>
+					</div>
+			</div>
+
+			<div id="menu_button_container">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+
+		</div>
+	</body>
+
+</html>
