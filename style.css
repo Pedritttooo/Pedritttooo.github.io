@@ -567,3 +567,22 @@ position: relative;
 	align-items: baseline;
 	margin: 15%;
 }
+
+
+@media (max-width: 500px){
+	#title_part_1{
+		font-size: 30px;
+		height: 5vh;
+	}
+
+	#title_part_2{
+		height: 20px;
+		letter-spacing: -1px;
+		font-size: 27px;
+	}
+
+	#title_part_3{
+		height: 42px;
+		font-size: 26px;
+	}
+}
