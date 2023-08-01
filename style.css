@@ -258,7 +258,7 @@
 
 #block1{
 /*	    background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/home/unq/Downloads/289D3.jpg.imagethumb.1920.jpg);*/
-background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/home/unq/Downloads/xxx.jpg);
+background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/xxx.jpg);
 	    background-attachment: scroll,fixed,fixed;
 	    position: relative;
 	    background-position: 0% 93%;
@@ -270,7 +270,7 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
     width: 100%;
     height: 100vh;
     /* border-top-left-radius: 28px; */
-    background: url(/home/unq/Downloads/top-view-natural-soi1ll.jpg);
+    background: url(/top-view-natural-soi1ll.jpg);
     border-radius: 10px;
     background-position-y: 24%;
     background-size: 100% 130%;
@@ -337,7 +337,7 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
     text-align: center;
     height: 70%;
     /* border-top-left-radius: 28px; */
-    background: linear-gradient(191deg, #0a0a0a1f 28%, #0e0e0e0f),url(/home/unq/Downloads/289D3.jpg.imagethumb.1920.jpg);
+    background: linear-gradient(191deg, #0a0a0a1f 28%, #0e0e0e0f),url(/289D3.jpg.imagethumb.1920.jpg);
     border-radius: 7px;
     background-size: 100% 100%;
     box-shadow: 0 0 14px 1px black;
