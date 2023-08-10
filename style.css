@@ -266,7 +266,7 @@ background: transparent;
 }
 
 #block1{
-background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/home/unq/Downloads/289D3.jpg.imagethumb.1920.jpg);
+background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/289D3.jpg.imagethumb.1920.jpg);
 	    background-attachment: scroll,fixed,fixed;
 	    position: relative;
 	    background-position: 0% 93%;
@@ -285,7 +285,7 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
         position: relative;
     width: 100%;
     height: 50vh;
-    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/home/unq/Downloads/adrien-olichon-h605cAbDm8s-unsplash.jpg);
+    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/adrien-olichon-h605cAbDm8s-unsplash.jpg);
     border-radius: 10px;
     background-position-y: 24%;
     background-size: 100% 130%;
@@ -294,7 +294,7 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
 }
 
 #block3{    
-	background: linear-gradient(45deg, #2f2f2f, #00000047),url(/home/unq/Downloads/adrien-olichon-h605cAbDm8s-unsplash.jpg);
+	background: linear-gradient(45deg, #2f2f2f, #00000047),url(adrien-olichon-h605cAbDm8s-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -771,7 +771,7 @@ color: white;
     position: relative;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/home/unq/Downloads/adrien-olichon-h605cAbDm8s-unsplash.jpg);
+    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/adrien-olichon-h605cAbDm8s-unsplash.jpg);
     border-radius: 10px;
     background-position-y: 24%;
     background-size: 100% 130%;
