@@ -1,3 +1,4 @@
+
 			html,body{
 				height: 100vh;
 				width: 100vw;
@@ -23,7 +24,16 @@
 				height: 50%;
 
 			}
+.headerX{
+	background: #292929ab;
+	transition: .5s linear;
+}
 
+.header{
+background: transparent;
+	transition: .5s linear;
+
+}
 			#header{
 			    position: fixed;
 			    width: 100vw;
@@ -104,7 +114,7 @@
 				text-align: center;
 				font-family: 'Montserrat';
 				font-weight: bold;
-				color: orangered;
+				color: white;
 				font-size: larger;
 				transition: .5s ease;
 				border-right: 1px solid black;
@@ -114,7 +124,7 @@
 
 			.nav:hover{
 				transition: .5s ease;
-				color: white;
+				color: orangered;
 				text-shadow: 1px 0 2px black, 0 0 3px;
 				cursor: pointer;
 			}
@@ -213,7 +223,7 @@
 
 #title_container{
     position: absolute;
-    z-index: -1;
+    z-index: 27;
         left: -57%;
         height: 25%;
     transform: translateY(440px);
@@ -238,7 +248,6 @@
     font-family: 'Montserrat';
     margin-left: -33%;
     font-size: 67px;
-    /* font-weight: bolder; */
     color: white;
     text-shadow: 0 0 3px black, -1px 0px 3px black;
     transition: 1s ease-out;
@@ -257,8 +266,7 @@
 }
 
 #block1{
-/*	    background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/home/unq/Downloads/289D3.jpg.imagethumb.1920.jpg);*/
-background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/xxx.jpg);
+background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/home/unq/Downloads/289D3.jpg.imagethumb.1920.jpg);
 	    background-attachment: scroll,fixed,fixed;
 	    position: relative;
 	    background-position: 0% 93%;
@@ -266,30 +274,43 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
 }
 
 #block2{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    /* border-top-left-radius: 28px; */
-    background: url(/top-view-natural-soi1ll.jpg);
+
+    background: linear-gradient(45deg, black, #353535);
     border-radius: 10px;
     background-position-y: 24%;
     background-size: 100% 130%;
     background-attachment: scroll;
     overflow: visible;
+
+        position: relative;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/home/unq/Downloads/adrien-olichon-h605cAbDm8s-unsplash.jpg);
+    border-radius: 10px;
+    background-position-y: 24%;
+    background-size: 100% 130%;
+    background-attachment: fixed;
+    overflow: visible;
 }
 
-#block3{background: linear-gradient(to top, black, transparent)}
+#block3{    
+	background: linear-gradient(45deg, #2f2f2f, #00000047),url(/home/unq/Downloads/adrien-olichon-h605cAbDm8s-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 #block4{
 	display: flex;
 	flex-direction: column;
+	background: linear-gradient(to top,#292929,transparent);
 
 }
 
 #shadow_block{
 	position: absolute;
     width: 100vw;
-    background-image: url(),linear-gradient(to bottom, black -6% , #00000000 57%);
+    background-image: url(),linear-gradient(224deg, #000000b5 28% , #00000036);
     z-index: 26;
     height: 100vh;
     background-attachment: scroll;
@@ -303,55 +324,39 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
     height: 45vh;
     flex-direction: row;
     align-items: center;
-    top: 35%;
+    top: 88%;
     margin: -5% -1%;
 }
 
 .service_block{
-/*    color: white;
-    width: 18%;
-    text-align: center;
-    height: 80%;
-    /* border-top-left-radius: 28px; 
-    background: linear-gradient(191deg, #0a0a0a1f 28%, #0e0e0e0f),url(/home/unq/Downloads/289D3.jpg.imagethumb.1920.jpg);
-    border: 2px solid #000000;
-    border-radius: 7px;
-    background-position-y: 82%;
-    background-size: 100% 104%;           ILI  nizhe*/
 
-
-/*        color: white;
-    width: 18%;
-    text-align: center;
-    height: 80%;
-    /* border-top-left-radius: 28px; 
-    background: linear-gradient(191deg, #0a0a0a1f 28%, #0e0e0e0f),url(/home/unq/Downloads/289D3.jpg.imagethumb.1920.jpg);
-    border-radius: 7px;
-    background-size: 100% 100%;
-    box-shadow: 0 0 15px 0px black;*/
 
     color: white;
     overflow: hidden;
-    width: 15%;
+    width: 20%;
     border: 1px solid #272727;
     text-align: center;
-    height: 70%;
-    /* border-top-left-radius: 28px; */
-    background: linear-gradient(191deg, #0a0a0a1f 28%, #0e0e0e0f),url(/289D3.jpg.imagethumb.1920.jpg);
-    border-radius: 7px;
+    height: 79%;
+    margin: 2px;
+    background: linear-gradient(191deg, #0a0a0a1f 28%, #0e0e0e0f); border-radius: 7px;
     background-size: 100% 100%;
     box-shadow: 0 0 14px 1px black;
+    border-radius: 10px;
 
 
 
 }
 
 .service_content_wraper{
-    width: 101%;
-    height: 100%;
-    background: linear-gradient(65deg, #000000, #3636360d);
-    background: re;
+    width: 95%;
+    height: 95%;
+    background-size: cover;
+    margin: 2%;
+/*    background: linear-gradient(65deg, #000000, #3636360d);*/
+transition: scale 0.5s ease;
     position: relative;
+    overflow: hidden;
+    background-size: cover;
 }
 
 .service_content{
@@ -396,44 +401,49 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
     background: linear-gradient(360deg, #000000e0, #0e0b0b45);*/
 
         position: relative;
-    top: 75%;
-    left: -1%;
+
     font-family: 'Montserrat';
     font-size: 30px;
     justify-content: center;
     align-items: center;
     display: flex;
     display: flex;
-    height: 25%;
+    height: 100%;
     color: white;
     text-shadow: 0 0 3px;
     background: linear-gradient(360deg, #000000e0, #0e0b0b45);
 }
 
 #service_title{
-
     position: relative;
-/*    background: linear-gradient(to left, black, transparent);*/
-
-        text-align: center;
-        top: 29%;
+    text-align: center;
+    top: 52%;
 
 }
-#contacts_title{ background: linear-gradient(to right, black, transparent);}
+#contacts_title{    background: linear-gradient(to right, #000000b0, transparent);*}
 
 #price_title{background: linear-gradient(to left,black,transparent);}
 
 #about_us_title{background: linear-gradient(to left, black, transparent);text-align: right;}
 
 .block_title{
-	position: relative;
+/*	position: relative;
     color: white;
     font-size: 5em;
     font-family: 'Montserrat';
     text-shadow: 6px 0px 6px black, -1px 0 2px white;
-    height: 15%;
+    box-shadow: 0 0 3px 1px inset black;
+    height: 10%;
 	width: 100%;
-    top: 18%;
+    top: 15%;*/
+
+    color: orangered;
+    font-size: 5em;
+    font-family: 'Montserrat';
+    text-shadow: 3px 0px 4px black, 0px 0 4px orangered;
+    height: 9%;
+    width: 100%;
+
 }
 
 #price_table{
@@ -511,19 +521,38 @@ height: 20%;
 
 
 #contacts_block{
-    position: relative;
-    width: 70%;
+/*    position: relative;
+    width: 90%;
     height: 60%;
+    margin: 0% 5%;
     display: flex;
     flex-direction: row;
     border: 1px solid;
-    top: 20%;
-    left: 10%;
+    top: 20%;*/
+
+/*        position: relative;
+    width: 75%;
+    margin: 0% 5%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    top: 20%;*/
+	position: relative;
+    height: 55%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    top: 25%;
+    overflow: hidden;
 }
 
 #map_wraper{
-position: relative;
-    width: 40%;
+    position: relative;
+  /* ------ left: 5%;
+    top: 5%;
+    -----*/
+
+/* ----   width: 40%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -533,25 +562,76 @@ position: relative;
     float: left;
     border-radius: 5px;
 
+------*/
+
+    position: relative;
+    height: 95%;
+    border: 4px solid black;
+    left: 6%;
+    top: 2%;
+    z-index: 0;
+    border-radius: 10px;
+    overflow: hidden;
+
 }
 
 #contacts_wraper{
-position: relative;
+/*----position: relative;
     width: 50%;
     height: 100%;
     left: 5%;
-    border: 1px solid;
+    border: 1px solid;---*/
+
+
+
+/*  ---  border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    background: #292929;----*/
+
+/*----
+        border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transform: skew(-15deg, 0deg);
+    width: 48%;
+    border: 1px solid orangered;
+    z-index: 1;
+    background: #292929e8;
+    -=-----*/
+
+    display: flex;
+    flex-direction: column;
+    transform: skew(-13deg, 0deg);
+    width: 40%;
+    background: #292929;
+    position: relative;
+    border-radius: 10px;
+    left: 10%;
+    z-index: 1;
 }
 
+
 .contacts_field{
-    font-size: 190%;
+/*    font-size: 190%;
     display: flex;
     margin:2% 0%;
     color: whitez;
     font-family: sans-serif;
     flex-direction: row;
     white-space: nowrap;
-    align-items: center;
+    align-items: center;*/
+
+    font-size: 165%;
+    display: flex;
+    margin: 1% 0%;
+    color: white;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: baseline;
+
 }
 
 .contacts_field_icon{color: orangered; font-size: 80%;}
@@ -561,11 +641,25 @@ position: relative;
 }
 
 .contacts_field_block{
-	font-family: 'Montserrat';
-	display: flex;
-	flex-direction: column;
-	align-items: baseline;
-	margin: 15%;
+
+
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    transform: skew(15deg, 0deg);
+    /* margin: 15%; */
+    margin: 5% 17%;
+    color: orangered;
+    font-weight: bolder;
+}
+
+.contacts_field_icon{
+
+}
+
+.contacts_field_icon:hover{
+	cursor: pointer;
 }
 
 
@@ -585,4 +679,106 @@ position: relative;
 		height: 42px;
 		font-size: 26px;
 	}
+
+	#contacts_block{
+		position: relative;
+	    height: 90%;
+	    left: 0%;
+	    display: flex;
+	    flex-direction: column-reverse;
+	    top: 1%;
+	    overflow: hidden;
+	}
+
+	.service_block{
+color: white;
+    overflow: hidden;
+    width: 95%;
+    border: 1px solid #272727;
+    height: 158px;
+    LEFT: -5%;
+    margin: 0%;
+    background: linear-gradient(191deg, #0a0a0aad 28%, #0e0e0e7a);
+    border-radius: 7px;
+    background-size: 100% 100%;
+    box-shadow: 0 0 14px 1px black;
+    border-radius: 10px;
+    POSITION: RELATIVE;
+
+	}
+
+	.service_content_wraper{
+    background: linear-gradient(65deg, #0000004d, #ffffffb5);
+    transition: scale 0.5s ease;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    background-size: 100% 115%;
+    width: 100%;
+    height: 100%;
+	}
+
+	.service_content{
+	position: relative;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: #FF5722;
+    text-shadow: 0 0 3px;
+    background: linear-gradient(259deg, #000000c2, #0e0b0bab);
+}
+
+	.block_title{
+	color: white;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Montserrat';
+    text-shadow: 0px 0px 2px black, 0px 0pc 3px white;
+    height: 9%;
+    width: 110%;
+}
+
+#service_title{
+    position: relative;
+    text-align: center;
+    top: 14%;
+    left: 20%;
+}
+
+.services_wraper{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    top: 16%;
+    margin: -5% -1%;
+}
+#block2{
+
+	    background: linear-gradient(45deg, black, #353535);
+    border-radius: 10px;
+    background-position-y: 24%;
+    background-size: 100% 130%;
+    background-attachment: scroll;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/home/unq/Downloads/adrien-olichon-h605cAbDm8s-unsplash.jpg);
+    border-radius: 10px;
+    background-position-y: 24%;
+    background-size: 100% 130%;
+    background-attachment: fixed;
+    overflow: visible;
+
+}
+
+	
 }
