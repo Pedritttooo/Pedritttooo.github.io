@@ -1,4 +1,3 @@
-
 			html,body{
 				height: 100vh;
 				width: 100vw;
@@ -65,7 +64,7 @@ background: transparent;
 			}
 
 			.logo_desc{
-				font-size: small;
+				font-size: 3vw;
 				font-family: 'Montserrat';
 				color: orangered;
 				text-shadow: 0 0 1px black;
@@ -94,7 +93,7 @@ background: transparent;
    				text-align: center;
    				font-family: 'Montserrat';
    				color: white;
-   				font-size: x-large;
+   				font-size: 4vh;
 			}
 
 
@@ -266,7 +265,7 @@ background: transparent;
 }
 
 #block1{
-background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/289D3.jpg.imagethumb.1920.jpg);
+background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/home/unq/Downloads/289D3.jpg.imagethumb.1920.jpg);
 	    background-attachment: scroll,fixed,fixed;
 	    position: relative;
 	    background-position: 0% 93%;
@@ -285,7 +284,7 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
         position: relative;
     width: 100%;
     height: 50vh;
-    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/adrien-olichon-h605cAbDm8s-unsplash.jpg);
+    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/home/unq/Downloads/adrien-olichon-h605cAbDm8s-unsplash.jpg);
     border-radius: 10px;
     background-position-y: 24%;
     background-size: 100% 130%;
@@ -294,7 +293,7 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
 }
 
 #block3{    
-	background: linear-gradient(45deg, #2f2f2f, #00000047),url(adrien-olichon-h605cAbDm8s-unsplash.jpg);
+	background: linear-gradient(45deg, #2f2f2f, #00000047),url(/home/unq/Downloads/adrien-olichon-h605cAbDm8s-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -337,7 +336,7 @@ background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-g
     border: 1px solid #272727;
     text-align: center;
     height: 79%;
-    margin: 2px;
+    margin: 2%;
     background: linear-gradient(191deg, #0a0a0a1f 28%, #0e0e0e0f); border-radius: 7px;
     background-size: 100% 100%;
     box-shadow: 0 0 14px 1px black;
@@ -664,20 +663,39 @@ height: 20%;
 
 
 @media (max-width: 500px){
+
+	#title_container{
+		position: absolute;
+    z-index: 27;
+left: 6%;
+    top: -28%;
+    transform: translateY(440px);
+    transition: all 0.5s ease-out 0s;
+    background: linear-gradient(279deg, #00000069, transparent);
+
+
+}
 	#title_part_1{
-		font-size: 30px;
-		height: 5vh;
+		  font-size:11vw;
+
+	    height: 6vh;
 	}
 
 	#title_part_2{
-		height: 20px;
-		letter-spacing: -1px;
-		font-size: 27px;
+    height: 36px;
+    letter-spacing: -1px;
+/*    font-size: 41px;*/
+		  font-size:9vw;
+
+    margin-left: 3%;
 	}
 
 	#title_part_3{
-		height: 42px;
-		font-size: 26px;
+    height: 49px;
+    font-size: 44px;
+    margin-left: -3%;
+    		  font-size:9vw;
+
 	}
 
 	#contacts_block{
@@ -697,11 +715,11 @@ color: white;
     border: 1px solid #272727;
     height: 158px;
     LEFT: -5%;
-    margin: 2%;
+    margin: 3%;
     background: linear-gradient(191deg, #0a0a0aad 28%, #0e0e0e7a);
     border-radius: 7px;
     background-size: 100% 100%;
-    box-shadow: 0 0 14px 1px black;
+    box-shadow: 0 0 5px 0px black;
     border-radius: 10px;
     POSITION: RELATIVE;
 
@@ -725,12 +743,11 @@ color: white;
     justify-content: center;
     align-items: center;
     display: flex;
-    display: flex;
     width: 100%;
     height: 100%;
-    color: #FF5722;
-    text-shadow: 0 0 3px;
-    background: linear-gradient(259deg, #000000c2, #0e0b0bab);
+    color: #fafafa;
+    text-shadow: 0 0 2px;
+    background: linear-gradient(26deg, #0000007a, #0e0b0bcc);
 }
 
 	.block_title{
@@ -744,10 +761,11 @@ color: white;
 }
 
 #service_title{
-    position: relative;
-    text-align: center;
+position: relative;
+    text-align: left;
     top: 14%;
-    left: 20%;
+    left: 51%;
+    border-bottom: 2px solid white;
 }
 
 .services_wraper{
@@ -757,7 +775,7 @@ color: white;
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    top: 16%;
+    top: 21%;
     margin: -5% -1%;
 }
 #block2{
@@ -771,7 +789,7 @@ color: white;
     position: relative;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/adrien-olichon-h605cAbDm8s-unsplash.jpg);
+    background: linear-gradient(45deg, #2f2f2f, #00000047),url(/home/unq/Downloads/adrien-olichon-h605cAbDm8s-unsplash.jpg);
     border-radius: 10px;
     background-position-y: 24%;
     background-size: 100% 130%;
@@ -780,5 +798,81 @@ color: white;
 
 }
 
-	
+#block1{
+	    background-image: linear-gradient(to bottom, #0000001a 24%, black 111%),linear-gradient(to top, #00000000 89%, #000000d4 105%),url(/home/unq/Downloads/289D3.jpg.imagethumb.1920.jpg);
+    background-attachment: scroll,fixed,fixed;
+    position: relative;
+    background-position: -105% 93%;
+    background-size: cover;
+    z-index: 0;
+
+}
+
+.price_table_header_title{
+	border-right: 1px solid black;
+    width: 65%;
+    margin: 16%7%;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    text-shadow: 0 0 2px black;
+    letter-spacing: -1px;
+    font-family: 'Montserrat';
+}
+
+#price_table_header_price{
+    position: relative;
+    width: 30%;
+    margin: 16% 7%;
+    height: 30%;
+    font-weight: bold;
+    font-size: 6vw;
+    top: 0;
+    left: 0;
+    color: white;
+    font-family: 'Montserrat';
+
+
+}
+
+#price_table{
+border: 1px solid black;
+    overflow: hidden;
+    height: 85%;
+    width: 95%;
+    top: 21%;
+    position: relative;
+    left: 0%;
+  }
+
+.price_table_line{
+    display: flex;
+    margin: 0px;
+    border: 2px solid #282828;
+    border-bottom: 1px;
+    flex-direction: row;
+    height: 11%;
+    width: 100%;
+    border-radius: 1px;
+    justify-content: left;
+    text-align: left;
+
+}
+
+.price_table_line_title{
+    color: #ff4b00;
+    border-right: 1px solid black;
+    font-size: 4vw;
+    width: 70%;
+    text-align: left;
+    height: 41%;
+    text-shadow: 0 2px 3px black;
+    margin: 3%;
+    font-family: sans-serif;
+
+}
+
+
 }
